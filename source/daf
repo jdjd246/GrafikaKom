@@ -1,0 +1,20 @@
+#include "raylib.h"
+
+int main() {
+    InitWindow(800, 600, "Text Test");
+    SetTargetFPS(60);
+
+    int hp = 100;
+
+    while (!WindowShouldClose()) {
+        BeginDrawing();
+        ClearBackground(RAYWHITE);
+
+        DrawText(TextFormat("HP: %d", hp), 10, 10, 20, GREEN);
+
+        EndDrawing();
+    }
+
+    CloseWindow();
+    return 0;
+}
