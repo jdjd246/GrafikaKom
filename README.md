@@ -6,6 +6,7 @@ DODANO:
 
 3 - wypełnienie oraz zmiana koloru asteroid dla poprawienia widoczności
 
+4 - podmieniona tesktura statku
 
 GAMEPLAY:
 
